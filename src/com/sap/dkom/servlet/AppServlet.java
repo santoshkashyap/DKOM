@@ -27,7 +27,7 @@ public class AppServlet extends HttpServlet {
 	 */
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().append("Welcome to Continuos Integration and Continuos Deployment seesion on HCP!!!").append(" On "+ new Date());
+		response.getWriter().append("Hello World !!!").append(" On "+ new Date());
 	}
 
 	/**
